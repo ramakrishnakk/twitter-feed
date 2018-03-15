@@ -69,7 +69,7 @@ public class StaticTweets {
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response getColor() throws IOException {
-			System.out.println("Checking color");
+			System.out.println("Checking color!!");
 			String color = "yellow";
 			byte[] encoded = Files.readAllBytes(Paths.get("/tmp/labels"));
 		  color = new String(encoded, Charset.defaultCharset());
